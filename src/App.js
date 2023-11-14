@@ -38,7 +38,7 @@ const topicsList = [
 class App extends Component {
   state = {
     name: '',
-    topic: topicsList[0].displayText,
+    topic: topicsList[0].id,
     isRegistered: false,
     registerClicked: false,
   }
